@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f5;
+  color: #212121;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img {
+  width: 100%;
+  height: 175px;
+}
+
+.App {
+  width: 90%;
+  margin: auto;
+}
+
+.discount {
+  height: 30px;
+}
+
+.product-information {
+  margin-left: 10px;
+}
+
+.product-information div {
+  padding: 5px 0px;
+}
+
+.product-information .price {
+  color: #7132c4;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-information .title {
+  font-size: 13px;
+}
+
+.product-information .category {
+  font-size: 11px;
+  color: #8453c3;
+}
+
+.product-information .category:hover {
+  color: #4d0ea1;
+}
+
+.header {
+  background: url(https://i.pinimg.com/originals/0b/d7/00/0bd7007f558ece4da40550e1aae1e40e.jpg);
+  background-repeat: repeat;
+  background-size: auto;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 50px;
+  border-radius: 7px;
 }

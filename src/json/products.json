@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "product": {
+        "title": "Smart TV",
+        "image": "https://d34zlyc2cp9zm7.cloudfront.net/products/b19c5cc95c3b3b0fa8a06d2d676b93d6fd54950fd4d995b4f37cb3252ef46656.jpg_500",
+        "price": 35980,
+        "category": "Tecnología",
+        "description": "45 pulgadas",
+        "offer": 0,
+        "code": "DFG655"
+      }
+    },
+    {
+      "product": {
+        "title": "Botines",
+        "image": "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dwb1302afc/products/AD_FW7514/AD_FW7514-1.JPG",
+        "price": 1350,
+        "category": "Indumentaria",
+        "description": "Material de cuero",
+        "offer": 10,
+        "code": "FDO154"
+      }
+    },
+    {
+      "product": {
+        "title": "Parlante",
+        "image": "https://d34zlyc2cp9zm7.cloudfront.net/products/6896a352e31335f63b3b336344824ed0d76409b20b952412ea0de3872a7c2e97.jpg_1000",
+        "price": 5300,
+        "category": "Tecnología",
+        "description": "Modelo DW-8R4",
+        "offer": 15,
+        "code": "JHG962"
+      }
+    },
+    {
+      "product": {
+        "title": "Samsung Galaxy S21",
+        "image": "https://cdn.shopify.com/s/files/1/0024/9803/5810/products/506509-Product-0-I-637474450942109273_1080x.jpg",
+        "price": 165000,
+        "category": "Tecnología",
+        "description": "Con un diseño de vanguardia, el Samsung S21 es un teléfono único que ofrece una pantalla Dynamic AMOLED 2x con una resolución Full HD+ sin Notch ni distracciones. Además, tiene 8GB de RAM y 128GB de almacenamiento",
+        "offer": 0,
+        "code": "FGH852"
+      }
+    },
+    {
+      "product": {
+        "title": "Camiseta adidas Boca Juniors Tercera 2021",
+        "image": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw61c8818f/products/AD_GK3173/AD_GK3173-1.JPG",
+        "price": 8560,
+        "category": "Indumentaria",
+        "description": "La camiseta adidas Boca Juniors corresponde a la tercera equipación que tienen los xeneixes. Su diseño se inspira en el barrio de La Boca, sus calles, su gente, su historia y su gloria alcanzada por el club azul y oro. ",
+        "offer": 20,
+        "code": "POK295"
+      }
+    },
+    {
+      "product": {
+        "title": "Harina",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_663233-MLA42206271386_062020-F.webp",
+        "price": 150,
+        "category": "Alimento",
+        "description": "Ideal para Reposteria",
+        "offer": 0,
+        "code": "OPQ952"
+      }
+    },
+    {
+      "product": {
+        "title": "Fideos Lucchetti Tirabuzon x500g",
+        "image": "https://minicostos.com/wp-content/uploads/2020/05/Fideos-Luccheti-Tirabuzon-x500g-1.jpg",
+        "price": 83.75,
+        "category": "Alimento",
+        "description": "Contiene vitaminas y minerales",
+        "offer": 0,
+        "code": "PDJ254"
+      }
+    },
+    {
+      "product": {
+        "title": "Ramen Instantaneo Kang Shi Fu",
+        "image": "https://cdnx.jumpseller.com/mercado-asia/image/14271559/resize/480/480?1629740777",
+        "price": 255.35,
+        "category": "Alimento",
+        "description": "Sabor a carne",
+        "offer": 0,
+        "code": "AKL814"
+      }
+    }
+  ]
+}
