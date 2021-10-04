@@ -1,21 +1,11 @@
-import React from "react";
-
-interface ProductModel {
-  name: string;
-  image: string;
-  category: string;
-  code: string;
-  price: number;
-  description: string;
-  offer: number;
-}
+import { ProductModel } from "../../models/gallery-models";
 
 export function Product(product: ProductModel) {
-  const { name, image, category, code, price, description } = product;
+  const { title, image, category, code, price, description } = product;
   return (
     <div className="product">
       <div className="product-name">
-        <span>{name}</span>
+        <span>{title}</span>
       </div>
       <div className="product-image">
         <div>Image</div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 //Elemento que contiene los datos necesarios para construir un Thumbnail
 export type ProductModel = {
   title: string;
@@ -8,4 +6,5 @@ export type ProductModel = {
   category: string;
   offer: number;
   code: string;
+  description: string;
 };

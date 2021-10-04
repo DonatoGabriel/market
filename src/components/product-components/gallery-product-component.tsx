@@ -6,6 +6,7 @@ import { Fragment } from "react";
 
 export function Gallery() {
   var productList: ProductModel[] = getProducts();
+  var newPrice: number = 0;
 
   function getProducts(): ProductModel[] {
     let products: ProductModel[] = [];
@@ -19,14 +20,24 @@ export function Gallery() {
 
   return (
     <Fragment>
-      <div className="header"></div>
-
       <Wrapper>
         {/* <div className="offers">Carrusel de ofertas</div>
       <div>buscador de productos</div> */}
         <ProductsWrapper>
           {productList.map((product) => {
-            return <Thumbnail key={product.code} item={product} />;
+            {
+              product.offer > 0
+                ? (newPrice =
+                    product.price - (product.price * product.offer) / 100)
+                : (newPrice = product.offer);
+            }
+            return (
+              <Thumbnail
+                key={product.code}
+                item={product}
+                newPrice={newPrice}
+              />
+            );
           })}
         </ProductsWrapper>
       </Wrapper>

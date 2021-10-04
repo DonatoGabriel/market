@@ -1,11 +1,16 @@
 import { ProductModel } from "../models/gallery-models";
-import { StyledThumbnail, StyledDiscount } from "../styles/thumbnail-style";
+import {
+  StyledThumbnail,
+  StyledDiscount,
+  StyledPrice,
+} from "../styles/thumbnail-style";
 // Componente que se encarga de realizar una "Miniatura"
 
 //Los componentes tienen solo un parámetro que es el objeto prop
 //El sistema de tipos está intentando hacer coincidir las propiedades con el primer parámetro de su función,
-export function Thumbnail(props: { item: ProductModel }) {
+export function Thumbnail(props: { item: ProductModel; newPrice: number }) {
   const { title, image, price, category, offer } = props.item;
+  const newPrice: number = props.newPrice;
 
   return (
     <StyledThumbnail>
@@ -18,7 +23,9 @@ export function Thumbnail(props: { item: ProductModel }) {
       </div>
       <div className="product-information">
         <div>
-          <span className="price">${price}</span>
+          <StyledPrice>
+            ${price} --- ${newPrice}
+          </StyledPrice>
         </div>
         <div>
           <span className="title">{title}</span>
