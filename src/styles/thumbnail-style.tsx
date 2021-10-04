@@ -28,9 +28,4 @@ export const StyledPrice = styled.span`
   font-weight: bold;
   font-size: 20px;
   color: #3250c4;
-
-  ${(props) => props.discount`
-    color: #6a6b6f;
-    text-decoration: line-through;
-  `}
 `;
