@@ -62,7 +62,7 @@
         "price": 150,
         "category": "Alimento",
         "description": "Ideal para Reposteria",
-        "offer": 0,
+        "offer": 5,
         "code": "OPQ952"
       }
     },
@@ -84,7 +84,7 @@
         "price": 255.35,
         "category": "Alimento",
         "description": "Sabor a carne",
-        "offer": 0,
+        "offer": 10,
         "code": "AKL814"
       }
     }

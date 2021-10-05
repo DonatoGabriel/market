@@ -3,6 +3,7 @@ import {
   StyledThumbnail,
   StyledDiscount,
   StyledPrice,
+  AddToCart,
 } from "../styles/thumbnail-style";
 // Componente que se encarga de realizar una "Miniatura"
 
@@ -23,15 +24,22 @@ export function Thumbnail(props: { item: ProductModel; newPrice: number }) {
       </div>
       <div className="product-information">
         <div>
-          <StyledPrice>
-            ${price} --- ${newPrice}
+          <StyledPrice discount={newPrice > 0}>
+            <span>${price}</span>
+            {newPrice > 0 && <span>${newPrice}</span>}
           </StyledPrice>
         </div>
+
         <div>
           <span className="title">{title}</span>
         </div>
+
         <div>
           <span className="category">{category}</span>
+        </div>
+
+        <div className="addToCart">
+          <AddToCart>Agregar</AddToCart>
         </div>
       </div>
     </StyledThumbnail>
