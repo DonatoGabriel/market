@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Header = styled.div`
+export const Slogan = styled.div`
   max-width: 100%;
   height: 500px;
   margin-top: 50px;
@@ -32,5 +32,23 @@ export const Header = styled.div`
   & span {
     display: inline-block;
     margin-top: 225px;
+  }
+`;
+
+export const StyledHeader = styled.div`
+  background-color: #3250c4;
+  padding: 20px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+
+  & svg {
+    font-size: 2.5rem;
+    float: right;
+  }
+
+  & svg:hover {
+    cursor: pointer;
   }
 `;

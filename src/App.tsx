@@ -1,12 +1,14 @@
+import { Header } from "./components/header-component";
 import { Gallery } from "./components/product-components/gallery-product-component";
-import { Header } from "./styles/home-style";
+import { Slogan } from "./styles/home-style";
 
 function App() {
   return (
     <div className="App">
-      <Header>
+      <Header />
+      <Slogan>
         <span>¡Adquiere todos tus productos favoritos, al mejor precio!</span>
-      </Header>
+      </Slogan>
       <Gallery />
     </div>
   );
