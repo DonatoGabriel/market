@@ -9,9 +9,14 @@ import {
 
 //Los componentes tienen solo un parámetro que es el objeto prop
 //El sistema de tipos está intentando hacer coincidir las propiedades con el primer parámetro de su función,
-export function Thumbnail(props: { item: ProductModel; newPrice: number }) {
+export function Thumbnail(props: {
+  item: ProductModel;
+  newPrice: number;
+  onAddToCart: (item: ProductModel) => void;
+}) {
   const { title, image, price, category, offer } = props.item;
   const newPrice: number = props.newPrice;
+  const onAddToCart = props.onAddToCart;
 
   return (
     <StyledThumbnail>
@@ -39,7 +44,7 @@ export function Thumbnail(props: { item: ProductModel; newPrice: number }) {
         </div>
 
         <div className="addToCart">
-          <AddToCart>Agregar</AddToCart>
+          <AddToCart onClick={() => onAddToCart(props.item)}>Agregar</AddToCart>
         </div>
       </div>
     </StyledThumbnail>
